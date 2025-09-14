@@ -3,7 +3,6 @@ public class SmartphoneBuilder {
     private String model;
     private int storage;
     private String cpu;
-    private String gpu;
     private int ram;
     private int screenrefreshrate;
 
@@ -27,11 +26,6 @@ public class SmartphoneBuilder {
         return this;
     }
 
-    public SmartphoneBuilder setGpu(String gpu) {
-        this.gpu = gpu;
-        return this;
-    }
-
     public SmartphoneBuilder setRam(int ram) {
         this.ram = ram;
         return this;
@@ -43,6 +37,6 @@ public class SmartphoneBuilder {
     }
 
     public Smartphone build() {
-        return new Smartphone(brand, model, storage, cpu, gpu, ram, screenrefreshrate);
+        return new Smartphone(brand, model, storage, cpu, ram, screenrefreshrate);
     }
 }

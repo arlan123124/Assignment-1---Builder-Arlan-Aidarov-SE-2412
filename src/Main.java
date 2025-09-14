@@ -5,7 +5,6 @@ public class Main {
                 .setModel("iphone 15 pro")
                 .setStorage(512)
                 .setCpu("a 18 bionic")
-                .setGpu("apple gpu")
                 .setRam(8)
                 .setScreenrefreshrate(120)
                 .build();

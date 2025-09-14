@@ -7,6 +7,7 @@ public class Smartphone {
     private final int screenrefreshrate;
 
 
+
     Smartphone(String brand, String model, int storage, String cpu,  int ram, int screenrefreshrate) {
         this.brand = brand;
         this.model = model;

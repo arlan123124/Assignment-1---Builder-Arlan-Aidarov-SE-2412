@@ -31,6 +31,7 @@ public class SmartphoneBuilder {
         return this;
     }
 
+
     public SmartphoneBuilder setScreenrefreshrate(int screenrefreshrate) {
         this.screenrefreshrate = screenrefreshrate;
         return this;

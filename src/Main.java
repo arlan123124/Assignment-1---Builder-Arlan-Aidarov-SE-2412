@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         Smartphone myPhone = new SmartphoneBuilder()
                 .setBrand("Apple")
                 .setModel("iphone 15 pro")
